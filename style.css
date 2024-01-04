@@ -1,0 +1,7 @@
+header{
+    color: blue;
+}
+
+.completed{
+    text-decoration: line-through solid black;
+}
