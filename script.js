@@ -23,9 +23,6 @@ getBotao.addEventListener('click', function(){
 
         criaLI.addEventListener('dblclick', function(){
             let getLI = document.body.querySelectorAll('li');
-            for(let index = 0; index < getLI.length; index += 1){
-                getLI[index].classList.remove('completed');
-            }
             criaLI.classList.add('completed');
         });
 
